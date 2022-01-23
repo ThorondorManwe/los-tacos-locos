@@ -1,0 +1,19 @@
+body {
+    width: 95vw;
+    background: url('./img/tacos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: .5em 1em;
+  }
+  
+  nav ul li {
+    background-color: bisque;
+    padding: .5em;
+    cursor: pointer;
+  }
