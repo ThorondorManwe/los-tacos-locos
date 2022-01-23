@@ -1,12 +1,11 @@
 const About = document.createRange().createContextualFragment(`
 <main>
-  <header>
-    <h1>About Tacos Locos!<h1>
+
+  <section class="aboutContent">
+    <h2>About Tacos Locos!<h2>
     <p>Tacos locos about page. Lorem ipsum dolor sit amet...</p>
-  </header>
-  <section>
-    Foo bar baz
   </section>
+
 </main>
 `);
 

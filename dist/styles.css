@@ -1,19 +1,58 @@
 body {
-    width: 95vw;
+    width: 99vw;
     background: url('./img/tacos.jpg');
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-size: cover; /* Resize the background image to cover the entire container */
-  }
-  nav ul {
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: hsl(113, 48%, 40%);
+    border: 1px solid green;
+}
+
+
+.main-navbar {
+    background-color: white;
+    border: 1px solid red;
+}
+
+nav ul {
     list-style-type: none;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: .5em 1em;
-  }
-  
-  nav ul li {
-    background-color: bisque;
-    padding: .5em;
+    padding: 2em 1em;
+}
+
+nav ul li {
+    background-color: green;
+    padding: 1em;
     cursor: pointer;
-  }
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hsl(0, 60%, 48%);
+    border: 1px solid blue;
+}
+
+.tacosContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

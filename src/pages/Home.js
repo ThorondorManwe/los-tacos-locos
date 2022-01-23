@@ -1,11 +1,9 @@
 const Home = document.createRange().createContextualFragment(`
 <main>
-  <header>
-    <h1>Tacos Locos Home Page!<h1>
+
+  <section class="homeContent">
+    <h2>Tacos Locos Home Page!<h2>
     <p>Tacos locos pollos por caballeros</p>
-  </header>
-  <section>
-    All the flavor of chicken, but none of the feathers.
   </section>
 </main>
 `);
