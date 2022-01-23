@@ -17,19 +17,18 @@ import About, { AboutMenu } from './pages/About.js';
   
 document.body.appendChild(component()); */
 
-
-// These will be loaded into the Navbar component, so by loading them into
-//  an array, we can handle them each in turn. Further, adding more menu items
-//  simply means adding another element to the array, and it's relevant page
-//  to the `pages` object.
+/* An array to handle the pages and add them later to the navbar */
 const menuItems = [HomeMenu, TacosMenu, AboutMenu];
 // Each of these pages have a name that will be used as its 'key'.
+
 const pages = {
   Home,
   Tacos,
   About
 };
+
 const contentEl = document.querySelector("#content");
+
 // Now, for each of the menuItem array elements, pop them into
 //  the Navbar.
 menuItems.forEach( menuItem => {
