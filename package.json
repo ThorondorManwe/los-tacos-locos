@@ -1,0 +1,28 @@
+{
+  "name": "los-tacos-locos",
+  "version": "1.0.0",
+  "description": "This is a restaurant page project made with webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThorondorManwe/los-tacos-locos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThorondorManwe/los-tacos-locos/issues"
+  },
+  "homepage": "https://github.com/ThorondorManwe/los-tacos-locos#readme",
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
