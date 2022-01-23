@@ -2,7 +2,8 @@ const Tacos= document.createRange().createContextualFragment(`
 <main>
   <section class="tacosContent">
     <h2>Los Tacos Locos!<h2>
-    <p>Tacos locos por siempre. Lorem ipsum dolor sit amet...</p>
+    <p>Tacos locos por siempre.</p>
+    <p>Tacos de carne, de res y de pollo, también de pescado. Los mejores tacos de la comarca</p>
   </section>
 </main>
 `);

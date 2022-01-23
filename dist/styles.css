@@ -19,7 +19,7 @@ body {
 
 .main-navbar {
     background-color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav ul li a {
     flex-direction: row;
     justify-content: center;
     background-color: hsl(0, 60%, 48%);
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .tacosContent {

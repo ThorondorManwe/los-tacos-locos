@@ -2,8 +2,8 @@ const Home = document.createRange().createContextualFragment(`
 <main>
 
   <section class="homeContent">
-    <h2>Tacos Locos Home Page!<h2>
-    <p>Tacos locos pollos por caballeros</p>
+    <h2>Home Page<h2>
+    <p>Tacos locos de pollo para los caballeros</p>
   </section>
 </main>
 `);

@@ -3,7 +3,7 @@ const About = document.createRange().createContextualFragment(`
 
   <section class="aboutContent">
     <h2>About Tacos Locos!<h2>
-    <p>Tacos locos about page. Lorem ipsum dolor sit amet...</p>
+    <p>We start creting websites but then we came with this new idea, Tacos Locos!</p>
   </section>
 
 </main>
